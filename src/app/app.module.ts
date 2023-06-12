@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { MovieStreamingDataComponent } from './movie-streaming-data/movie-streaming-data.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MovieStreamingDataComponent
   ],
   imports: [
     BrowserModule,
