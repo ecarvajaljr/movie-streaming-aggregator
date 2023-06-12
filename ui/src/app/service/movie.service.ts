@@ -23,6 +23,7 @@ export class MovieService {
 
   constructor(private http: HttpClient) { }
 
+  //TODO: replace this with a call to the API
   getMovies() {
     return this.http.get<Movie[]>('assets/movies.json');
   }
